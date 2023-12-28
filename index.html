@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="images/1.jpg">
+	<title>Buy Medicine,Health Products in doorstep</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="logo">
+		<img src="images/brandlogo.png" class="brandlogo">
+		<h2><b>Srisabari Meds</b></h2>
+		<a href="cart.html"><img src="images/cartlogo.jpg" class="cartlogo"></a>
+	</div>
+	<div class="flexbox">
+		<div class="search">
+		  <h1>Say GoodBye to high medicine prices</h1>
+		  <h3>Compare prices and save upto 51%</h3>
+		  <div>
+			<input type="text" placeholder="Search . . ." required>
+		  </div>
+		</div>
+	  </div>
+	<nav>
+		<ul>
+			<li><a href="about.html">About Us</li>
+			<li><a href="contact.html">Contuct Us</li>
+			<li><a href="sign.html">Login /Sign Up</a> </li>
+		</ul>
+		    
+	</nav>
+	
+	<img src="images/wpbaner.jpg" class="wpbaner" usemap="#wpbaner">
+	<map name="wpbaner">
+		<area shape="rect" coords="0,0,1920,350" href="whatsup.html">
+	  </map>
+	<br><br><br><br>
+	<div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 4</div>
+          <img src="images/Slideshow1.webp">
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 4</div>
+          <img src="images/Slideshow2.webp">
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 4</div>
+          <img src="images/Slideshow3.webp">
+        </div>
+
+		<div class="mySlides fade">
+			<div class="numbertext">4 / 4</div>
+			<img src="images/Slideshow4.jpg">
+		  </div>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+        </div>
+        
+        <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 2000); 
+        }
+        </script>
+		<br><br>
+
+	<div class="baner">
+		<img src="images/brandlogo.png" class="brandlogobaner">
+		<p>Now Yoy Can WHATSAPP TO ORDER</p>
+		<a href="#" class="wpbtn">WhatsApp Me</a>
+		<img src="images/whatsUpBaner.webp" class="whatsUpBaner">
+	</div><br><br>
+
+
+	<div class="aboutcontent">
+		<h2>6 Reasons for you to Shop from MedPlus:</h2>
+
+	<ol>
+		<li>Authentic medicines: Be 100% assured of receiving genuine medicines</li>
+		<li>Monthly provisions: One stop store for both medicines as well as monthly provisions (kiraana)</li>
+		<li>Quick to-door deliveries: We ensure the delivery of well-packaged products to your doorstep at quick timelines.</li>
+		<li>Pocket-friendly: Our range of discounts, offers and deals will allow you to go economical everyday, everytime. We recommend you to explore Payback Special Sale, our special saving scheme.</li>
+		<li>Customer-friendly: Order from the comfort of your sofa with our easy browsing and smooth billing procedure. Our hassle-free Upload option allows you to seamlessly upload your prescription online and have your medicines delivered to you!</li>
+		<li>Track and Re-Order: Conveniently refer to all your previous bills and orders which will allow you to re-order with a single click.</li>
+	</ol>
+	</div>
+		
+
+</body><br><br><br><br>
+<footer>
+	<h2>Our Payment Partners</h2>
+	<div class="paymentslogo">
+		<img src="images/gpaylogo.png">
+		<img src="images/paytmlogo.jpg">
+		<img src="images/phnpaylogo.png">
+		<img src="images/upilogo.jpg">
+	</div>
+</footer>
+</html>
