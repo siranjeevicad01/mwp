@@ -306,6 +306,7 @@ z-index: 1;
 .wpframe{
 	width: 370px;
 	height: 700px;
+	float: right;
 }
 .process{
 	display: flex;
