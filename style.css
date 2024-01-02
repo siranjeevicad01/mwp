@@ -87,13 +87,12 @@
 
 
 
-
-ul{
+.navbar{
 	display: flex;
 	list-style-type: none;
 	padding: 20px 20px;
 }
-li a{
+.navbar > li a{
 	text-decoration: none;
 	padding: 10px 10px;
 }
@@ -300,7 +299,7 @@ z-index: 1;
 .wpcontent{
 	display: flex;
 	gap: 50px;
-	background-color: lightyellow;
+	background-color:white;
 	padding: 15px;
 }
 .wpframe{
