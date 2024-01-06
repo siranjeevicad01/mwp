@@ -155,6 +155,25 @@ img {vertical-align: middle;}
 
 
 
+.doctpre{
+	width: 100%;
+	height: 200px;
+	display: flex;
+	gap: 30px;
+	border: 1px solid lightblue;
+}
+.doctprebtn{
+	background-color: lightblue;
+	text-decoration:none;
+	width: 100px;
+	height: 30px;
+	border-color: lightblue;
+}
+.doctpre4{
+	padding-top: 50px;
+}
+
+
 
 .baner{
 	display: flex;
@@ -211,7 +230,11 @@ img {vertical-align: middle;}
 }
 
 .prescriptionpg{
-	padding-left : 20%;
+	padding-top : 2%;
+	padding-left : 30%;
+	padding-right : 20%;
+	background: url(https://i.postimg.cc/Jh7YjDhb/clean-medical-background-53876-97927.jpg)no-repeat ;
+	background-size: cover;
 }
 
 .pre2 {
@@ -222,9 +245,9 @@ img {vertical-align: middle;}
 }
   
 .uploadbtn {
-	border: 2px solid lightblue;
+	border: 2px solid lightseagreen;
 	color:white;
-	background-color: lightskyblue;
+	background-color: lightseagreen;
 	padding: 20px 20px;
 	border-radius: 8px;
 	font-size: 20px;
